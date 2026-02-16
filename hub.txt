@@ -3,3 +3,5 @@ shortLabel mioHub
 longLabel Hub per BAM multipli
 genomesFile genomes.txt
 email m.benda@campus.unimib.it
+descriptionUrl https://github.com/mbenda-ctrl/ucsc/blob/main/README.md
+
