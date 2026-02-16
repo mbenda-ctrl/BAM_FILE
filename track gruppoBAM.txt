@@ -1,0 +1,28 @@
+track gruppoBAM
+shortLabel BAM multipli
+longLabel BAM multipli con scaling uniforme
+type bam
+visibility pack
+autoScale off
+viewLimits 0:100
+subGroup1 condizione Condizione WT=WT KO=KO
+
+track WT1
+parent gruppoBAM
+bigDataUrl http://tuoserver/WT1.bam
+subGroups condizione=WT
+
+track WT2
+parent gruppoBAM
+bigDataUrl http://tuoserver/WT2.bam
+subGroups condizione=WT
+
+track KO1
+parent gruppoBAM
+bigDataUrl http://tuoserver/KO1.bam
+subGroups condizione=KO
+
+track KO2
+parent gruppoBAM
+bigDataUrl http://tuoserver/KO2.bam
+subGroups condizione=KO

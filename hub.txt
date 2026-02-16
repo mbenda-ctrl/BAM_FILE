@@ -1,0 +1,5 @@
+hub mioHub
+shortLabel mioHub
+longLabel Hub per BAM multipli
+genomesFile genomes.txt
+email m.benda@campus.unimib.it
